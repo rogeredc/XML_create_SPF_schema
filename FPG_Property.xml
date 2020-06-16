@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Container version="1.0" SoftwareVersion="04.02.00.14" Scope="" IRel_DomainUID2="Auto" IRel_DomainUID1="Auto" IObject_UniqueKey="Auto" IObject_TerminationDate="9999/12/31-23:59:59:999" IObject_OBID="Auto" IObject_LastUpdatedDate="Now" IObject_DomainUID="Auto" IObject_CreationUser="superuser" IObject_CreationDate="Now" IObject_ContainerID="CDWDEV.Schema" CompSchema="">
+  <PropertyDef>
+    <IObject Name="pCDWEqCategory" UID="pCDWEqCategory" />
+    <ISchemaObj DisplayName="設備類型" />
+  </PropertyDef>
+  <Rel>
+    <IObject UID="ICustomCDWEquipment.pCDWEqCategory.Exposes" />
+    <IRel UID1="ICustomCDWEquipment" DefUID="Exposes" IsRequired="False" UID2="pCDWEqCategory" />
+  </Rel>
+  <Rel>
+    <IObject UID="pCDWEqCategory.string.ScopedBy" />
+    <IRel UID1="pCDWEqCategory" DefUID="ScopedBy" IsRequired="False" UID2="string" />
+  </Rel>
+  <PropertyDef>
+    <IObject Name="pCDWEqType" UID="pCDWEqType" />
+    <ISchemaObj DisplayName="設備種類" />
+  </PropertyDef>
+  <Rel>
+    <IObject UID="ICustomCDWEquipment.pCDWEqType.Exposes" />
+    <IRel UID1="ICustomCDWEquipment" DefUID="Exposes" IsRequired="False" UID2="pCDWEqType" />
+  </Rel>
+  <Rel>
+    <IObject UID="pCDWEqType.string.ScopedBy" />
+    <IRel UID1="pCDWEqType" DefUID="ScopedBy" IsRequired="False" UID2="string" />
+  </Rel>
+  <PropertyDef>
+    <IObject Name="pCDWEqRemark" UID="pCDWEqRemark" />
+    <ISchemaObj DisplayName="設備備註" />
+  </PropertyDef>
+  <Rel>
+    <IObject UID="ICustomCDWEquipment.pCDWEqRemark.Exposes" />
+    <IRel UID1="ICustomCDWEquipment" DefUID="Exposes" IsRequired="False" UID2="pCDWEqRemark" />
+  </Rel>
+  <Rel>
+    <IObject UID="pCDWEqRemark.string.ScopedBy" />
+    <IRel UID1="pCDWEqRemark" DefUID="ScopedBy" IsRequired="False" UID2="string" />
+  </Rel>
+  <PropertyDef>
+    <IObject Name="pCDWPipeMaterialClass" UID="pCDWPipeMaterialClass" />
+    <ISchemaObj DisplayName="管線材質編號" />
+  </PropertyDef>
+  <Rel>
+    <IObject UID="ICustomCDWPipeline.pCDWPipeMaterialClass.Exposes" />
+    <IRel UID1="ICustomCDWPipeline" DefUID="Exposes" IsRequired="False" UID2="pCDWPipeMaterialClass" />
+  </Rel>
+  <Rel>
+    <IObject UID="pCDWPipeMaterialClass.string.ScopedBy" />
+    <IRel UID1="pCDWPipeMaterialClass" DefUID="ScopedBy" IsRequired="False" UID2="string" />
+  </Rel>
+  <PropertyDef>
+    <IObject Name="pCDWPipeLength" UID="pCDWPipeLength" />
+    <ISchemaObj DisplayName="管線尺寸" />
+  </PropertyDef>
+  <Rel>
+    <IObject UID="ICustomCDWPipeline.pCDWPipeLength.Exposes" />
+    <IRel UID1="ICustomCDWPipeline" DefUID="Exposes" IsRequired="False" UID2="pCDWPipeLength" />
+  </Rel>
+  <Rel>
+    <IObject UID="pCDWPipeLength.string.ScopedBy" />
+    <IRel UID1="pCDWPipeLength" DefUID="ScopedBy" IsRequired="False" UID2="string" />
+  </Rel>
+  <PropertyDef>
+    <IObject Name="pCDWPipeInsulationPurpose" UID="pCDWPipeInsulationPurpose" />
+    <ISchemaObj DisplayName="管線保冷類型" />
+  </PropertyDef>
+  <Rel>
+    <IObject UID="ICustomCDWPipeline.pCDWPipeInsulationPurpose.Exposes" />
+    <IRel UID1="ICustomCDWPipeline" DefUID="Exposes" IsRequired="False" UID2="pCDWPipeInsulationPurpose" />
+  </Rel>
+  <Rel>
+    <IObject UID="pCDWPipeInsulationPurpose.ePipeInsulationPurpose.ScopedBy" />
+    <IRel UID1="pCDWPipeInsulationPurpose" DefUID="ScopedBy" IsRequired="False" UID2="ePipeInsulationPurpose" />
+  </Rel>
+  <PropertyDef>
+    <IObject Name="pCDWPipeRemark" UID="pCDWPipeRemark" />
+    <ISchemaObj DisplayName="管線備註" />
+  </PropertyDef>
+  <Rel>
+    <IObject UID="ICustomCDWPipeline.pCDWPipeRemark.Exposes" />
+    <IRel UID1="ICustomCDWPipeline" DefUID="Exposes" IsRequired="False" UID2="pCDWPipeRemark" />
+  </Rel>
+  <Rel>
+    <IObject UID="pCDWPipeRemark.string.ScopedBy" />
+    <IRel UID1="pCDWPipeRemark" DefUID="ScopedBy" IsRequired="False" UID2="string" />
+  </Rel>
+</Container>

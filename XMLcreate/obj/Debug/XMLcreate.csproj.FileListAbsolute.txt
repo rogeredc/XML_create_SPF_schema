@@ -1,0 +1,12 @@
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\bin\Debug\XMLcreate.exe.config
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\bin\Debug\XMLcreate.exe
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\bin\Debug\XMLcreate.pdb
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\bin\Debug\EPPlus.dll
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\bin\Debug\EPPlus.xml
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\obj\Debug\XMLcreate.Form1.resources
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\obj\Debug\XMLcreate.Properties.Resources.resources
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\obj\Debug\XMLcreate.csproj.GenerateResource.Cache
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\obj\Debug\XMLcreate.csproj.CoreCompileInputs.cache
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\obj\Debug\XMLcreate.exe
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\obj\Debug\XMLcreate.pdb
+C:\Users\06006647\source\repos\XMLcreate\XMLcreate\obj\Debug\XMLcreate.csprojResolveAssemblyReference.cache

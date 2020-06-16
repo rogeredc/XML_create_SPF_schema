@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Container version="1.0" SoftwareVersion="04.02.00.14" Scope="" IRel_DomainUID2="Auto" IRel_DomainUID1="Auto" IObject_UniqueKey="Auto" IObject_TerminationDate="9999/12/31-23:59:59:999" IObject_OBID="Auto" IObject_LastUpdatedDate="Now" IObject_DomainUID="Auto" IObject_CreationUser="superuser" IObject_CreationDate="Now" IObject_ContainerID="CDWDEV.Schema" CompSchema="">
+  <InterfaceDef>
+    <IObject Name="ICustomCDWEquipment" UID="ICustomCDWEquipment" />
+    <ISchemaObj DisplayName="ICustomCDWEquipment" />
+  </InterfaceDef>
+  <Rel>
+    <IObject UID="SPFCDWEquipment.ICustomCDWEquipment.Realizes" />
+    <IRel UID1="SPFCDWEquipment" DefUID="Realizes" UID2="ICustomCDWEquipment" />
+  </Rel>
+  <Rel>
+    <IObject UID="ICustomCDWEquipment.IObject.Implies" />
+    <IRel UID1="ICustomCDWEquipment" DefUID="Implies" UID2="IObject" />
+  </Rel>
+  <InterfaceDef>
+    <IObject Name="ICustomCDWPipeline" UID="ICustomCDWPipeline" />
+    <ISchemaObj DisplayName="ICustomCDWPipeline" />
+  </InterfaceDef>
+  <Rel>
+    <IObject UID="SPFCDWPipeline.ICustomCDWPipeline.Realizes" />
+    <IRel UID1="SPFCDWPipeline" DefUID="Realizes" UID2="ICustomCDWPipeline" />
+  </Rel>
+  <Rel>
+    <IObject UID="ICustomCDWPipeline.IObject.Implies" />
+    <IRel UID1="ICustomCDWPipeline" DefUID="Implies" UID2="IObject" />
+  </Rel>
+</Container>
